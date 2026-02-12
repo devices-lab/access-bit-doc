@@ -1,0 +1,30 @@
+{
+  "name": "access-bit-doc",
+  "version": "1.0.0",
+  "description": "Documentation for the Access:bit an accessibility addon for the Micro:bit",
+  "main": "index.js",
+  "repository": "https://github.com/devices-lab/access-bit-doc.git",
+  "author": "John Vidler",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "scripts": {
+    "dev:11ty": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "extra": {
+    "title": "Access:bit Documentation",
+    "keywords": [
+      "access-bit",
+      "micro:bit",
+      "documentation"
+    ],
+    "hwidx": [
+      "hwidx.org/10.2/2",
+      "hwidx.org/2/2/4.2"
+    ]
+  }
+}
