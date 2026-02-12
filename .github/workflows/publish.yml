@@ -1,0 +1,38 @@
+name: Release to GitHub
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create release archive
+        run: |
+          tar -czf user-doc-base-${{ github.ref_name }}.tgz \
+            package.json \
+            yarn.lock \
+            README.md \
+            LICENSE \
+            .eleventy.js \
+            postcss.config.js \
+            tailwind.config.js \
+            src
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: user-doc-base-${{ github.ref_name }}.tgz
+          draft: false
+          prerelease: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
