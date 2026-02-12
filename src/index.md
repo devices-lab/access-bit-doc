@@ -8,7 +8,7 @@ description: none
 # Overview
 
 <figure>
-    <img src="img/main.png" alt="" />
+    <img src="img/access-bit-main.png" alt="" />
     <caption>Test</caption>
 </figure>
 
