@@ -9,8 +9,8 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@devices-lab/user-doc-base": "https://github.com/devices-lab/user-doc-base.git#main",
     "@11ty/eleventy": "^3.1.2",
+    "@devices-lab/user-doc-base": "https://github.com/devices-lab/user-doc-base.git#main",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
     "postcss-load-config": "^4.0.2",
