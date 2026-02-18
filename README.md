@@ -1,5 +1,6 @@
 # Documentation for the Access:Bit
 
+Must be built with `npm` rather than `yarn` as yarn doesn't play nicely with the package dependencies, unfortunately.
 
 ## Image autocropping
 
