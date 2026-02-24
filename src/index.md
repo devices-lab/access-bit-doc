@@ -1,7 +1,7 @@
 ---
 layout: "devices-lab/default"
 title: The Access:Bit Accessibility Addon
-image: /img/tile.png
+image: img/tile.png
 description: none
 ---
 
