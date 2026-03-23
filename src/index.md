@@ -2,14 +2,13 @@
 layout: "devices-lab/default"
 title: The Access:Bit Accessibility Addon
 image: img/tile.png
-description: none
+description: An accessibility addon for the Micro:bit
 ---
 
 # Overview
 
 <figure>
     <img src="img/access-bit-main.png" alt="" />
-    <caption>Test</caption>
 </figure>
 
 The Access:bit is a custom hardware extension for the BBC micro:bit designed to improve accessibility and make physical interaction easier for learners with different mobility needs. It was created following accessibility research and feedback from educators, with the aim of bringing common adaptive controls (such as large switches and alternative interface hardware) straight to the micro:bit without complex wiring or code changes. The board makes it simple to connect adaptive input devices, map them to micro:bit pins and buttons, and mount everything securely in place.
